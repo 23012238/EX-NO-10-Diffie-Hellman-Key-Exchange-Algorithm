@@ -48,12 +48,12 @@ int main() {
     scanf("%lld", &G); 
     printf("The value of G: %lld\n\n", G);
 
-    printf("Enter the private key for Navya (a): ");
+    printf("Enter the private key for Narasimha (a): ");
     scanf("%lld", &a);
     x = mod_exp(G, a, P); 
 
 
-    printf("Enter the private key for sree (b): ");
+    printf("Enter the private key for reddy (b): ");
     scanf("%lld", &b);
     y = mod_exp(G, b, P);
 
@@ -70,7 +70,8 @@ int main() {
 
 
 ## Output:
-![image](https://github.com/user-attachments/assets/b3ada05d-817e-4354-b714-d6a2ca0af6ba)
+![image](https://github.com/user-attachments/assets/129baecc-830b-4acd-9b2a-10df55072e25)
+
 
 
 
